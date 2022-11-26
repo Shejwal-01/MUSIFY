@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+       <ul>
+        <li class="brand"><img src="logo.png"  alt="Logo">Musify</li>
+        <li>Home</li>
+        <li>Services</li>
+       </ul>
+   </nav>
+
+   <div class="container">
+    <div class="songlist"></div>
+        <h1>HipHop - Best Of DIVINE</h1>
+        <div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span>3:59 AM</span>
+                <span class="songlistplay"><span class="timestamp">04:32</span><i class="far fa-play-circle"></i></span>
+            </div>
+        </div>
+    
+   </div>
+   <div class="songbanner">
+   </div>
+
+   <div class="bottom">
+    <input type="range" name="range" id="myprogressbar" min="0" max="100">
+    <div class="icons">
+        <!--- fontawesome icons --->
+        <i class="fas fa-3x fa-step-backward"></i>
+        <i class="far fa-3x fa-play-circle"></i>
+        <i class="fas fa-3x fa-step-forward"></i>
+    </div>
+   </div>
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/ddf942ac8b.js" crossorigin="anonymous"></script>
+</body>
+</html>
